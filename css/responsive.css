@@ -1,0 +1,72 @@
+/*--===== Normal =====--*/
+@media (min-width:1200px){	/* xl */
+
+}
+@media (max-width:1199px){	/* lg */
+
+}
+@media (max-width:991px){	/* md */
+/*header*/
+	header>.container>section{
+		background-image:none;
+	}
+	header>.container>section h1{
+	font-size:100px;
+	}
+	header>.container>section h3{
+	font-size:30px;
+	}
+/*section1*/
+	.section1{
+		margin-top:-450px;
+	}
+/*section2*/
+	.section2>.container h2{
+		font-size:30px;
+	}
+	.section2>.container p{
+		font-size:18px;
+	}
+	
+	.section2>.container .text-area{
+	padding-top:50px !important;
+	}
+	.section2>.container .flex-2{
+	margin-top:-25px;
+	}
+/*section5*/
+	.section5>.container{
+		background-image:none;
+	}
+}
+@media (max-width:767px){	/* sm */
+/*header*/
+	header>.container>section h1{
+	font-size:70px;
+	}
+	header>.container>section h3{
+	font-size:20px;
+	}
+/*section1*/
+	.section1{
+		background-image:none;
+		margin-top:-700px;
+	}
+	.section1>.container h2{
+		color:#fff;
+	}
+/*section2*/
+	.section2>.container .flex-2{
+		margin-top:0;
+	}
+}
+@media (max-width:575px){	/* xs */
+
+}
+@media (max-width:480px){
+
+}
+@media (max-width:320px){
+
+}
+/*--===== Custom =====--*/
